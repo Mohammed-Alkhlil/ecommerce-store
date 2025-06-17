@@ -1,0 +1,49 @@
+.page.detail {
+  padding: 60px 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  color: #fff;
+}
+.detail-card {
+  display: flex;
+  background: rgba(255,255,255,0.2);
+  backdrop-filter: blur(5px);
+  border-radius: 12px;
+  overflow: hidden;
+}
+.detail-card img {
+  width: 50%;
+  object-fit: cover;
+}
+.detail-info {
+  padding: 20px;
+  flex: 1;
+  text-align: left;
+}
+.detail-info h2 {
+  margin-bottom: 10px;
+}
+.detail-info .price {
+  color: #ffd700;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+.detail-info .category {
+  font-style: italic;
+  opacity: 0.8;
+  margin-bottom: 15px;
+}
+.detail-info .description {
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+.detail-info button {
+  padding: 10px 20px;
+  background: #ffd700;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.detail-info button:hover {
+  background: #fff176;
+}

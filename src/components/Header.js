@@ -24,6 +24,8 @@ const Header = () => {
         <NavLink to="/products" onClick={closeMenu}>Products</NavLink>
         <NavLink to="/about" onClick={closeMenu}>About</NavLink>
         <NavLink to="/help" onClick={closeMenu}>Help</NavLink>
+        <NavLink to="/cart" className={({isActive})=> isActive?'active':''}>Cart</NavLink>
+
       </nav>
     </header>
   );
