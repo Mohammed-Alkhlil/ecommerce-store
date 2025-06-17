@@ -1,0 +1,41 @@
+
+
+.page.products {
+  padding: 60px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* نفس إعدادات الهيدر والـ hero ذكرتها قبل */
+.page.products .controls {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 40px;
+}
+
+.page.products .controls input,
+.page.products .controls select {
+  padding: 12px 16px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  outline: none;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.page.products .controls input:focus,
+.page.products .controls select:focus {
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  transform: scale(1.02);
+}
+
+/* الشبكة ثلاثية الأعمدة */
+.page.products .product-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+/* بطاقة المنتج (ممكن تستخدم نفس قواعد .card من App.css) */
